@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0AFF1C21-B95C-4942-ACF4-1DF272C61D97}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{9604DC54-82FA-4431-B64E-4E16CEDA3845}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{15F929C1-28FC-4F59-9EA7-A8B607ADB9E7}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{FE265E46-FCD0-441E-B43B-54AAFFBC9BC6}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{E7A9A422-5616-4AC6-9995-A86CD2ED23EB}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{7C394FFE-5D80-40CF-A62A-F9799AC77350}">
+										<TypeInfo Item0="{4863ABD5-FEF3-4BB2-8FBE-71C8DA57622D}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="CortanaUI" Key="{819EEEBD-A4DC-41C8-B3AA-031279ABFD6F}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="CortanaUI" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageInit" Key="{4DEA9752-FFFC-4BD4-8FEB-4DD04C25DB49}">
+								<Image FileName="-1596157709" Left="-774" Top="-707" Right="0" Bottom="0" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bing.com/WS/Init" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{80863BAA-E55B-47B3-8DFA-38500F89E434}">
+										<Image FileName="-1596157709" Left="38" Top="101" Right="329" Bottom="601" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@aria-labelledby=(//div[.=&apos;Последние&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Блокнот&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;qfContainer&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePp" Key="{5437C6CC-2375-4A9B-9CAD-2DB6745B4772}">
+										<Image FileName="-1596157709" Left="38" Top="126" Right="329" Bottom="166" />
+										<Selectors>
+											<Selector>
+												<Value Value="#PPБлокнот" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Блокнот&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;Блокнот&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{E85D9E4B-8BAA-42F6-8597-48FA4E9690D5}">
+										<Image FileName="-1596157709" Left="-747" Top="-661" Right="-460" Bottom="-625" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Блокнот&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[@id=&apos;PPБлокнот&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[@id=&apos;PPБлокнот&apos;]//button[contains(@class, &apos;suggDetailsContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;PPБлокнот&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[@id=&apos;PPБлокнот&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageB0f8826ee406f9402773cf4aa61" Key="{C565AE56-3332-4D69-A901-A8735549E22E}">
+										<Image FileName="-1596157709" Left="48" Top="82" Right="72" Bottom="106" />
+										<TypeInfo Item0="{BB64068C-F523-4117-B528-4B07FA5BD363}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;qfContainer&apos;]//ul/li[@id=&apos;PPБлокнот&apos;]//button//img[contains(@src, &apos;www.bing.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;PPБлокнот&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;qfContainer&apos;]//ul/li[@id=&apos;PPБлокнот&apos;]//button//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{7A9F0730-CF34-4791-BB42-59CC828C6E21}">
+										<Image FileName="1940036413" Left="40" Top="84" Right="327" Bottom="104" />
+										<TypeInfo Item0="{BB64068C-F523-4117-B528-4B07FA5BD363}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[@id=&apos;PPБлокнот&apos;]//button/div[contains(@class, &apos;details&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="notepad_" Key="{6598A273-E134-4AF9-AA33-B712EFCB3226}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad++" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{CAA5B65B-EB9E-438B-8FD3-F69B79163A9D}">
+								<Image FileName="-317813015" Left="0" Top="0" Right="1100" Bottom="700" />
+								<TypeInfo Item0="{66DA62C0-555C-430B-92E0-67DF4E5B28A6}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad++" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Scintilla" Key="{4C9841AF-E026-40DB-A87D-6AC745581DC0}">
+										<Image FileName="-535258378" Left="10" Top="102" Right="1090" Bottom="667" />
+										<TypeInfo Item0="{4863ABD5-FEF3-4BB2-8FBE-71C8DA57622D}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Scintilla" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Notepad++" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Tab" Key="{3B10E29C-1E68-4708-BA8A-30484688A98C}">
+										<Image FileName="2033722627" Left="8" Top="76" Right="1092" Bottom="669" />
+										<TypeInfo Item0="{D8D1DDAB-D543-4BBD-B524-0D2BC5414678}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysTabControl32" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Tab" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="ReBarWindow32" Key="{54FAB569-B121-4CF5-884D-DBC3E29C7308}">
+										<Image FileName="483688292" Left="8" Top="51" Right="1092" Bottom="76" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{DD181838-DD75-4159-AA79-34161B0B2338}">
+												<Image FileName="483688292" Left="10" Top="51" Right="1092" Bottom="76" />
+												<TypeInfo Item0="{16C0190D-788B-4C38-8C12-C5876B931957}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ToolbarWindow32" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlg_" Key="{71B5453D-A80D-4E36-9931-125BE875E853}">
+								<Image FileName="-217319692" Left="0" Top="0" Right="484" Bottom="169" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Сохранение..." />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btn_" Key="{F1D67E9C-03F1-41D4-AF42-50AD7FF1EB87}">
+										<Image FileName="-217319692" Left="103" Top="129" Right="178" Bottom="152" />
+										<TypeInfo Item0="{C36A63B1-BAEA-4608-8490-22C1FA94DA23}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Нет" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btn_2" Key="{C476D853-E8F3-459A-95A6-2482371D4912}">
+										<Image FileName="1177551551" Left="371" Top="129" Right="461" Bottom="152" />
+										<TypeInfo Item0="{C36A63B1-BAEA-4608-8490-22C1FA94DA23}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Н&amp;ет, для всех" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{9604DC54-82FA-4431-B64E-4E16CEDA3845}">
+			<Child Name="BrowserWindow" Owner="{15F929C1-28FC-4F59-9EA7-A8B607ADB9E7}" />
+		</Child>
+		<Child Name="explorer" Owner="{FE265E46-FCD0-441E-B43B-54AAFFBC9BC6}">
+			<Child Name="wndShell_TrayWnd" Owner="{E7A9A422-5616-4AC6-9995-A86CD2ED23EB}">
+				<Child Name="DesktopWindowXamlSource" Owner="{7C394FFE-5D80-40CF-A62A-F9799AC77350}" />
+			</Child>
+		</Child>
+		<Child Name="CortanaUI" Owner="{819EEEBD-A4DC-41C8-B3AA-031279ABFD6F}">
+			<Child Name="pageInit" Owner="{4DEA9752-FFFC-4BD4-8FEB-4DD04C25DB49}">
+				<Child Name="textnode" Owner="{80863BAA-E55B-47B3-8DFA-38500F89E434}">
+					<Child Name="textnodePp" Owner="{5437C6CC-2375-4A9B-9CAD-2DB6745B4772}">
+						<Child Name="button" Owner="{E85D9E4B-8BAA-42F6-8597-48FA4E9690D5}">
+							<Child Name="imageB0f8826ee406f9402773cf4aa61" Owner="{C565AE56-3332-4D69-A901-A8735549E22E}" />
+							<Child Name="panel" Owner="{7A9F0730-CF34-4791-BB42-59CC828C6E21}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="notepad_" Owner="{6598A273-E134-4AF9-AA33-B712EFCB3226}">
+			<Child Name="wndNotepad" Owner="{CAA5B65B-EB9E-438B-8FD3-F69B79163A9D}">
+				<Child Name="Scintilla" Owner="{4C9841AF-E026-40DB-A87D-6AC745581DC0}" />
+				<Child Name="Tab" Owner="{3B10E29C-1E68-4708-BA8A-30484688A98C}" />
+				<Child Name="ReBarWindow32" Owner="{54FAB569-B121-4CF5-884D-DBC3E29C7308}">
+					<Child Name="toolbar" Owner="{DD181838-DD75-4159-AA79-34161B0B2338}" />
+				</Child>
+			</Child>
+			<Child Name="dlg_" Owner="{71B5453D-A80D-4E36-9931-125BE875E853}">
+				<Child Name="btn_" Owner="{F1D67E9C-03F1-41D4-AF42-50AD7FF1EB87}" />
+				<Child Name="btn_2" Owner="{C476D853-E8F3-459A-95A6-2482371D4912}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
