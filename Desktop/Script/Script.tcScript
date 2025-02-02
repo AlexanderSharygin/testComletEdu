@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Google" key="{BFD323CA-DB45-41F4-9AEE-0A679E571ECD}" path="Google.py" />
+		<child name="Notepad" key="{9AB37D61-B19D-4479-9211-C78E37115876}" path="Notepad.py" />
 	</children>
 </Root>

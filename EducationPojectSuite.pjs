@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{7DB60545-3F47-4B9F-9A6B-459271C8C45E}">
 	<children>
-		<child name="TestProject1" key="{353E7DA3-4BD4-4382-A4FB-5E78A0254824}" path="TestProject1\TestProject1.mds" />
+		<child name="Web" key="{353E7DA3-4BD4-4382-A4FB-5E78A0254824}" path="TestProject1\Web.mds" />
+		<child name="Desktop" key="{12979D70-3C62-4445-B4BE-077CD1157B18}" path="Desktop\Desktop.mds" />
 	</children>
 	<testItems key="{C8F56B8B-8F35-47ED-B6D8-19F4EE53C1C6}">
 		<children>
 			<testItem key="{353E7DA3-4BD4-4382-A4FB-5E78A0254824}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{12979D70-3C62-4445-B4BE-077CD1157B18}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{138784F2-468B-4D91-9086-82C930AEFBDC}" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<child name="Test1" key="{784E4372-5667-4035-804D-D13FF7B3336A}" path="Test1.tcKDTest" />
+		<child name="Google" key="{784E4372-5667-4035-804D-D13FF7B3336A}" path="Google.tcKDTest" />
 	</children>
 </Root>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{13733A1D-4F34-4F5B-808F-3DDC334B7ADA}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{E12090C1-AF92-4B62-BA19-FE646AC43C64}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
 	<config nodeName="TestedApps" />
 	<testData />
 	<data />
 	<children>
-		<child key="{DD1EF774-D67E-4549-B0DC-A50A1EC68EB9}">
+		<child key="{5B5188BA-16D8-4065-ABB6-C09351294046}">
 			<config nodeName="WindowsNotepad" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="WinStore">
 					<param name="WinStore" parameters="" workFolder="" packageName="Microsoft.WindowsNotepad" />
@@ -13,7 +13,19 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{52EDAB04-BE58-432F-93B0-CFB78CB6922A}">
+		<child key="{F8C85190-CB94-48C7-9978-9B0A7EFF0F45}">
+			<config nodeName="notepad" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files (x86)\Notepad++" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files (x86)\Notepad++" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files (x86)\Notepad++" />
+					<param name="Simple" fileName="notepad++.exe" filePath="C:\Program Files\Notepad++\" parameters="" workFolder="C:\Program Files (x86)\Notepad++" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{F6605613-89C0-4D06-A64C-FB943E07B091}">
 			<config nodeName="chrome" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />

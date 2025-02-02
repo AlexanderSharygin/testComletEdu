@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{F7979306-5DF3-4DD0-8587-0DA97B77C414}">
+	<data key="{9AB37D61-B19D-4479-9211-C78E37115876}">
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45686.2504398148" objectName="Aliases.notepad_.wndNotepad" objectLeft="0" objectTop="0" objectRight="1100" objectBottom="700" clickPointX="-252" clickPointY="-170" imageFileName="tcvi5099718158402.png" storageFileName="" needUpdate="False" rectColor="255" />
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45686.250462963" objectName="Aliases.notepad_.dlg_.btn_2" objectLeft="371" objectTop="129" objectRight="461" objectBottom="152" clickPointX="413" clickPointY="140" imageFileName="tcvi5101875158404.png" storageFileName="" needUpdate="False" rectColor="255" />
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="0" dateTime="45686.2952314815" objectName="Aliases.notepad_.wndNotepad" objectLeft="0" objectTop="0" objectRight="1100" objectBottom="700" clickPointX="-1" clickPointY="-1" imageFileName="tcvi8969812257880.png" storageFileName="" needUpdate="False" rectColor="255" />
